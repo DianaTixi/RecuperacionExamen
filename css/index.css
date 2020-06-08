@@ -1,0 +1,322 @@
+*{
+  padding: 0px;
+  margin: 5px;
+
+  color: white;
+ 
+}
+body{
+  padding-left: 4px;
+  padding-right: 4px;
+  margin-top: 4px;
+  margin-top: 4px;background-color: #c8642e;
+}
+header{
+  height: 150px;
+margin-bottom: 15px;
+background:-webkit-linear-gradient(rgb(235, 159, 88),#f59a11) ;	
+background:-moz-linear-gradient(rgb(235, 159, 88) ,#f59a11); 
+ 
+}
+nav{
+overflow: hidden;
+margin-left: 4px;
+margin-right: 4px;
+padding-bottom: 6px;
+font-size: 100%;
+font-family: arial;
+background:-moz-linear-gradient(rgb(240, 126, 19) ,#f59a11);
+background:-webkit-linear-gradient(rgb(240, 126, 19),#f59a11)  ;
+}
+.secciones{
+width: 40%;
+margin-top: 8px;
+  margin-bottom: 20px;
+margin-left: auto;
+margin-right: auto;
+  position: relative;
+  float: left;
+  color: black;	
+}
+.secciones1{
+width: 100%;
+margin-top: 8px;
+  margin-bottom: 20px;
+margin-left: auto;
+margin-right: auto;
+  position: relative;
+float: left;
+text-align: center;
+  color: black;
+  background-color:#CA6F1E ;
+  border: wheat solid 3px
+}
+.articulos{
+width: 48%;
+margin-left: 4px;
+margin-top: 4px;
+margin-right: 4px;
+margin-bottom: 4px;
+float: left;
+border: #c8642e solid 10px;
+text-align: justify;
+background-color:#f59a11;
+}
+.elementos{
+  width: 98%;
+  margin-left: 4px;
+  margin-top: 4px;
+  margin-right: 4px;
+  margin-bottom: 4px;
+  float: left;
+  border: #c8642e solid 10px;
+  text-align: justify;
+  background-color:#f59a11;
+  }
+.imagP{
+  
+  text-align: center;
+}
+nav a:hover{
+background:-moz-linear-gradient(top,rgb(133, 52, 52),rgb(243, 116, 32));
+background:-webkit-linear-gradient(top,rgb(133, 52, 52),rgb(243, 116, 32))  ;
+color: #ffffff;
+}
+nav a:link {
+text-decoration: none;
+}
+nav a:visited {
+text-decoration:none;
+}
+.menu_h{
+  list-style-type: none;
+margin: 0;
+padding: 0;
+}
+.menu_h a {
+margin: 5px;
+width: 285px;
+text-align: center;
+padding: 6px;
+border: 1px solid white;
+display: block;
+background-color: rgb(185, 66, 72);
+font-size: 12px;
+font-style: italic; 
+color:black;    
+}
+.menu_h li{
+float: left;
+top:4px;
+position: relative;
+color: white;
+}
+a {
+cursor:help;
+top:50px;
+color: black;
+}
+aside{
+width: 38%;
+margin-right: 10%;
+margin-top: 2.5%;
+border:#943b3b solid 10px ;
+float: right;
+font-family: arial;
+text-align: center;
+position: relative;
+
+}
+#cabecera{
+float: left;
+margin-bottom: 15px;	
+font-family: arial;
+padding: 10px;
+width: 45%;
+height: 50%;
+text-align: justify;
+font-size: large;
+color:black;
+}
+#logo1{
+position: relative;
+height: 100px;	
+float: left;
+}
+#buscar {
+  margin: 0;
+  padding: 10px;
+  float: none;
+  width: auto;
+  font-size: 100%;
+}
+#buscar {
+  padding: 2px;
+  position: absolute;
+width: 30%;
+left: 35%;
+text-align: center;
+  top: 80px;
+}
+#info{
+float: right;	
+}
+#intro{
+width: 100%;
+margin-top: 15px;
+}
+
+#caja2{
+float: left;
+width: 250px;
+height: 270px;
+  margin-top: 15px;
+  margin-left: 40%;
+  margin-bottom: 15px;
+  margin-right: 10%;
+text-align: center;
+color: black;
+}
+.img{
+border-radius: 30px;
+}
+.botones{
+color: black;
+width: 250px;
+font-size: 15px;
+}
+#iconoF{
+width: 6.5%;
+height:65px;
+position: relative;
+left: 15px;
+margin-top: 10px;
+margin-right: auto;
+text-align: center;
+
+}
+#iconoI{
+position: relative;
+left:6.5%;
+top: -68px;
+width: 6.5%;
+height:65px;
+text-align: center;
+}
+#logP1{
+width: 13%;
+height:130px;
+position: relative;
+margin-right: auto;
+text-align: center;
+top: -120px;
+left: -65px;
+font-size: 25px;
+}
+#imag{
+text-align: center;
+}
+.i1{
+float: left;
+margin-left: 100px;
+margin-right: 15px;
+margin-bottom: 15px;
+margin-top: 15px;
+}
+p{
+color:black;
+font-size: 20px;
+margin-left: 5px;
+margin-right: 5px;
+}
+h1{
+color: black;
+font-size: 60px;
+font-family: "Mystery Quest", cursive;
+}
+h1{
+  color: black;
+  text-align: center;
+  }
+h2{
+color: black;
+font-size: 40px;
+}
+h3{
+color: black;
+}
+ol{
+  color: black;
+  text-align: justify;
+  list-style-type: upper-roman 
+}
+label{
+text-align: center;
+font-size: 20px;
+color: black;
+font-family: "Mystery Quest", cursive;
+}
+input{
+color: black;
+}
+button{
+font-family: "Mystery Quest", cursive;
+  border-radius: 3px; 
+  color: black; 
+  cursor: grabbing;
+  text-align: center; 
+width: 100px;
+height: 25px; 
+}
+#informacion{
+  text-align: center;
+}
+footer{
+width: 100%;
+float: left;
+margin-bottom: 4px;
+background:-moz-linear-gradient(rgb(235, 159, 88) ,#c8642e);
+background:-webkit-linear-gradient(rgb(235, 159, 88),#c8642e) ;
+}
+.footer1{
+float: left;
+margin-top: 5px;
+margin-left: 15px;
+margin-bottom: 5px;
+width: 20%;
+}
+.footer2{
+margin-top: 3px;
+margin-left: 25px;
+margin-bottom: 5px;
+width: 200px;
+}
+.info1{
+float: right;
+margin-top: 5px;
+margin-bottom: 5px;
+margin-left: 15%;
+margin-right: 5px;
+}
+
+.info1 p{
+font-size: 15px;
+}
+.info2 p{
+  font-size: 15px;
+  }
+
+#caja3{
+float: left;
+margin-top: 5px;
+margin-bottom: 5px;
+margin-left: 5px;
+margin-right: 5px;
+}
+#caja4{
+float: right;
+margin-top: 5px;
+margin-bottom: 5px;
+margin-left: 5px;
+margin-right: 5px;
+}

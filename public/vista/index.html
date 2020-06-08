@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>PaginaPrincipal</title>
+    <meta charset="utf-8"/>
+    <meta name="keywords" content="Mi Agenda Telefonica" />
+    <link rel="stylesheet" type="text/css" href="../../css/index.css">
+    <script src="buscar.js" type="text/javascript" ></script>
+<!--    <link rel="stylesheet" type="text/css" href="CSS/estilos.css">-->
+</head>
+<body> 
+    
+    <header >
+        <div id="encabezado">  
+            <div id="logo1">
+                <img src="../../imagenes/log.png"  width="250" height="150" alt="Imagen de Portada" >
+            </div>
+            <div id="buscar">
+                <form method="get" action="https://www.google.com/search">
+                <input title="busqueda" name="q" type="text" class="floatright" id="cajabusqueda" value="" size="31" 
+                 maxlength="255">
+                <input name="botonbusq" type="submit" class="floatright" id="botonbusqueda" value="Busqueda">
+                </form> 	
+            </div>  
+            <div id="info">
+                <a href="tel:+5930998801982"><img src="../../imagenes/contacto.png"  width="50" height="50" alt="Correo electronico" ></a>
+                <a href="mailto:dtixi@est.ups.edu.ec"><img src="../../imagenes/sobre.jpg"  width="50" height="50" alt="Contactos Telefonico" ></a>
+                <button><a href="public/vista/login.html" target="_blank">Iniciar Sesion</a></button>
+            </div>
+        </div>  
+    </header>
+
+        <nav>
+            <ul class="menu_h">
+                <li><a href="crearL.php" target="_blank">Agregar Libros</a></li>
+                <li><a href="admin/listar.php" target="_blank">Listar Capitulos</a></li>
+                <li><a href="admin/listar2.php" target="_blank">Listar Capitulos</a></li>
+            </ul>
+        </nav>
+        <aside >
+            <img src="../../imagenes/portada.jpg" width="350" height="250" >
+        </aside>
+
+        <section class="secciones">
+            <h1>Biblioteca Virtual</h1>
+            <article>
+            <br>
+            <p>Una biblioteca es un lugar donde podemos encontrar libros o cualquier otro soporte de un texto, como publicaciones, revistas, documentos, catálogos, etcétera. Una biblioteca puede ser a la vez la pieza de mobiliario donde colocamos los libros (que usualmente está formada por varios estantes horizontales) o el edificio en sí, donde podemos consultar y tomar prestados libros y demás.
+
+                Una biblioteca es un sitio donde podemos recurrir para leer, buscar información y estudiar. En muchas bibliotecas además se ofrecen servicios de búsqueda online, a través de Internet, y consulta de libros digitales.
+                
+                En la mayoría de las bibliotecas los libros se encuentran organizados rigurosamente dentro de diez grandes categorías (lo que se denomina “Clasificación Decimal Universal, o CDU). Estas categorías respondes a la siguiente clasificación: Lengua, Artes, Ciencias exactas y Ciencias naturales, Ciencias aplicadas y tecnología, Literatura, Filosofía y Psicología, Historia y Geografía, Ciencias sociales, Religión y finalmente obras de referencia, es decir diccionarios o enciclopedias.
+                
+            </p>
+            </article>
+        </section>
+        
+        
+        <section class="secciones1"> 
+            <h1>Buscar Libro</h1>
+            <form method="POST" onsubmit="return buscarPorCedula()" >
+                <label>  </label> &nbsp; &nbsp; 
+                <br><br>
+                <input type="text" id="cedula" name="cedula" value=""> <br>
+                <br>
+                <input type="button" id="busc" name="buscar" value="Buscar" onclick="buscarPorCedula()" />
+                <br><br>
+            </form>
+            
+        <div id="informacion"></div>
+        </section>
+
+        
+
+        <section class="secciones1">
+            <article class="articulos">
+                <h2>Vision</h2>
+                <p>La visión de la Biblioteca de Administración Pública es ser el centro de  información e investigación en la 
+                    disciplina donde estudiantes, facultad e investigadores tengan acceso a los recursos informativos utilizando 
+                    las herramientas tecnológicas más avanzadas; así como fomentar en el estudiantado el desarrollo de competencias
+                    de información <br>
+                </p>
+                <div class="imagP">
+                </div>
+            </article>
+        
+            <article class="articulos">
+                <h2>Mision</h2>
+                <p>Como centro de desarrollo intelectual, educativo y cultural de una comunidad académica entusiasta, 
+                    la Biblioteca de Administración Pública y su personal está dedicadoa apoyar la visión  y misión del Recinto de 
+                    Río Piedras y el Sistema de Bibliotecas expresado en los siguientes compromisos:.<br>
+                </p>
+                <div class="imagP">
+                </div>
+            </article>
+        </section>
+        
+
+        <section class="secciones1">
+            <article >
+                <h2>Partes de un Libro</h2>
+                <div class="imagP">
+                    <img src="../../imagenes/partes.png" width="300" height="300">
+                </div>
+            </article>
+        </section>
+        <section class="secciones1">
+            <article class="elementos">
+                <h1>Elementos de un Libro</h1>
+                <p>1. Dedicatorio</p>
+                <p>Suele ser un pequeño texto que el autor incluye al principio de su obra 
+                    en el que expone a quien o quienes dedica la creación de su libro<br>
+                </p><br>
+
+                <p>2. Presentación y agradecimientos</p>
+                <p>Esta es la parte que el autor dedica a dar las gracias a todas las 
+                    personas que han hecho posible la creación y publicación de su obra.<br>
+                </p><br>
+
+                <p>3. Índice</p>
+                <p>El índice suele resultar una parte muy útil para el lector ya que refleja 
+                    la estructura y organización del contenido del libro, mostrando los títulos 
+                    de los capítulos principales.<br>
+                </p><br>
+                
+                <p>4. Prólogo o introducción</p>
+                <p>El prólogo es la presentación previa a la trama. 
+                    También se conoce como prefacio o preámbulo.<br>
+                </p><br>
+
+                <p>5. Capítulos</p>
+                <p>Son las diferentes partes en las que se divide la trama. sus títulos
+                    nos dan una idea del contenido que mostrarán..<br>
+                </p><br>
+
+                <p>6. Bibliografía</p>
+                <p>Es un listado de las obras que han sido utilizadas de alguna manera 
+                    por el autor para la creación de su obra<br>
+                </p><br>
+
+                <p>7. Colofón</p>
+                <p>Anotación al final del libro,que indica:
+
+                    <ol>Nombre del impresor</ol>
+                    <ol>Lugar y fecha de impresión</ol>
+                    <ol>Número de tirada</ol>
+                    <ol>Logotipo del impresor</ol>
+                
+                </p><br>
+
+                <p>8. Epilogo</p>
+                <p>Se incluye al final de una obra literaria para hacer alguna consideración sobre ella 
+                    o terminar de desentramar algunas partes del libro que han quedado sin resolver.<br>
+                </p><br>
+                
+            </article>
+        </section>
+
+        <section class="secciones1">
+           
+            <h2>Colaboradores</h2>
+            <div id="caja2">
+                <img class="img" id="img1" src="../../imagenes/colab2.jpg" width="200" height="210">
+                <br><br>
+                <button class="botones">Diana Fernanda Tixi Uyaguari</button> 
+            </div> 
+        </section>
+
+        <footer>
+            <div class="footer1">
+                <div id="caja3">
+                    <a href="https://www.wizardingworld.com/"><img src="../../imagenes/face.jpg"  width="50" height="50" alt="Imagen de Portada" ></a>
+                </div>
+                <div id="caja4">        
+                    <a href="https://www.instagram.com/harrypotterfilm/"><img src="../../imagenes/insta.jpg"  width="50" height="50" alt="Imagen de Portada" ></a>
+                </div>
+                <div class="footer2">
+                    <img src="../../imagenes/log.png"  width="250" height="150" alt="Imagen de Portada">
+                </div>
+            </div>
+
+            <div class="info1">
+                <h3>Informaci&oacute;n</h3>
+                <p>&#8226; Nombre: Diana Fernanda Tixi Uyaguari </p>
+                <p>&#8226; Universidad Polit&eacute;cnica Salesiana </p>
+                <p>&#8226; Email: <a href="mailto:dtixi@est.ups.edu.ec">dtixi@est.ups.edu.ec</a></p>
+                <p>&#8226; Call: <a href="tel:+5930998801982">(593) 0998801982</a></p>
+                <p>&#169;Todos los derechos reservados</p>
+            </div>
+        </footer>
+
+</body>
+</html>

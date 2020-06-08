@@ -1,0 +1,119 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+body{
+    padding-left: 4px;
+    padding-right: 4px;
+    margin-top: 4px;
+    margin-top: 4px;background-color: #F0B454;
+}
+header{
+    height: 150px;
+    margin-bottom: 15px;
+  background:-webkit-linear-gradient(rgb(235, 159, 88),#c8642e) ;	
+  background:-moz-linear-gradient(rgb(235, 159, 88) ,#c8642e);		
+}
+nav{
+    overflow: hidden;
+    margin-left: 4px;
+    margin-right: 4px;
+    padding-bottom: 6px;
+    font-size: 100%;
+    font-family: arial;
+    background:-moz-linear-gradient(rgb(240, 126, 19) ,#c8642e);
+    background:-webkit-linear-gradient(rgb(240, 126, 19),#c8642e)  ;
+}
+nav a:hover{
+    background:-moz-linear-gradient(top,rgb(133, 52, 52),rgb(243, 116, 32));
+    background:-webkit-linear-gradient(top,rgb(133, 52, 52),rgb(243, 116, 32))  ;
+    color: #ffffff;
+}
+nav a:link {
+    text-decoration: none;
+}
+nav a:visited {
+    text-decoration:none;
+}
+.menu_h{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu_h a {
+    margin: 5px;
+    width: 500px;
+    text-align: center;
+    padding: 6px;
+    border: 1px solid white;
+    display: block;
+    background-color: rgb(185, 66, 72);
+    font-size: 12px;
+    font-style: italic; 
+    color:black;    
+}
+.menu_h li{
+    float: left;
+    top:4px;
+    position: relative;
+    color: white;
+}
+a {
+    cursor:help;
+    top:50px;
+    color: black;
+}
+    
+#cabecera{
+    float: left;
+    margin-bottom: 15px;	
+    font-family: arial;
+    padding: 10px;
+    width: 45%;
+    height: 50%;
+    text-align: justify;
+    font-size: large;
+    color:black;
+    }
+#logo1{
+    position: relative;
+    height: 100px;	
+    float: left;
+}
+#buscar {
+    margin: 0;
+    padding: 10px;
+    float: none;
+    width: auto;
+    font-size: 100%;
+}
+#buscar {
+    padding: 2px;
+    position: absolute;
+    width: 30%;
+    left: 35%;
+    text-align: center;
+    top: 80px;
+}
+#info{
+float: right;	
+}
+table{
+    border:rgb(255, 196, 0) solid 2px;
+    text-align: center;
+    
+}
+td, th {
+    /*width: 20%;*/
+    color: black;
+    border: rgb(185, 66, 72) solid 2px;
+}
+label{
+    color: black;
+    text-align: center;
+}
+#eliminar{
+    color: black;
+    width: 150px;
+}
